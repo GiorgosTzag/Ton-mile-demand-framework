@@ -1,0 +1,26 @@
+id,segment,trade,origin,destination,volume_mbd,dist_base_nm,dist_cape_nm,red_sea_exposed,hormuz_exposed,bbl_per_t,note
+1,VLCC,dirty,Middle East Gulf,China,5.1,6000,6000,N,Y,7.33,Core MEG-Asia artery; exits via Hormuz (no reroute)
+2,VLCC,dirty,Middle East Gulf,Japan/Korea,4.2,6600,6600,N,Y,7.33,Gulf-origin; sails east so Red Sea does not apply
+3,VLCC,dirty,Middle East Gulf,India,2.0,1500,1500,N,Y,7.33,Short-haul; Hormuz-exposed
+4,Suezmax,dirty,Middle East Gulf,Europe,0.6,6400,11100,Y,Y,7.33,Gulf-origin AND Suez-transiting: both chokepoints bite
+5,VLCC,dirty,West Africa,China,1.8,10500,10500,N,N,7.33,Long-haul Atlantic
+6,Suezmax,dirty,West Africa,Europe,1.3,4500,4500,N,N,7.33,Atlantic; no chokepoint exposure
+7,VLCC,dirty,US Gulf,China,1.0,13500,13500,N,N,7.33,Longest mainstream crude haul
+8,Suezmax,dirty,US Gulf,Europe,1.2,5000,5000,N,N,7.33,Atlantic basin
+9,VLCC,dirty,Brazil/Guyana,China,1.4,11000,11000,N,N,7.33,Pre-salt + Guyana long-haul
+10,Suezmax,dirty,Latin America,US Gulf,0.6,3000,3000,N,N,7.33,Heavy grades to USGC
+11,Aframax,dirty,North Sea,NW Europe,0.8,600,600,N,N,7.33,Intra-basin; minimal ton-mile
+12,Suezmax,dirty,Russia Baltic,India,1.6,8000,8000,N,N,7.33,Sanctions long-haul (shadow fleet)
+13,Aframax,dirty,Russia Pacific,China,0.8,1000,1000,N,N,7.33,Kozmino short-haul
+14,Suezmax,dirty,Russia Black Sea,India,0.5,6000,6000,N,N,7.33,Via Suez; sanctions reshuffle
+15,Aframax,dirty,Caribbean,US Gulf,0.5,1500,1500,N,N,7.33,Short-haul intra-Americas
+16,Aframax,dirty,Mediterranean,Mediterranean,0.7,800,800,N,N,7.33,Cross-Med intra-basin
+17,LR2,clean,Middle East Gulf,Europe,0.9,6400,11100,Y,Y,8.0,Gulf-origin AND Suez-transiting: both chokepoints bite
+18,LR2,clean,Middle East Gulf,East (Asia),1.1,3500,3500,N,Y,8.0,Gulf-origin, sails east; Hormuz-exposed only
+19,LR1,clean,Middle East Gulf,East Africa,0.4,2500,2500,N,Y,8.0,Gulf-origin; Hormuz-exposed only
+20,MR,clean,US Gulf,Europe,0.5,5000,5000,N,N,8.0,USGC diesel to Europe
+21,MR,clean,US Gulf,Latin America,1.0,2500,2500,N,N,8.0,Gasoline to Latam
+22,LR2,clean,India,Europe,0.7,6400,10600,Y,N,8.0,Suez-transiting but NOT Gulf-origin: Red Sea yes, Hormuz no
+23,MR,clean,NW Europe (ARA),West Africa,0.6,3500,3500,N,N,8.0,Gasoline to W.Africa
+24,MR,clean,Intra-Asia,SE Asia,1.5,2000,2000,N,N,8.0,Korea/China to SE Asia
+25,MR,clean,Russia Baltic,Africa/Turkey,0.9,4000,4000,N,N,8.0,Sanctioned product flows
